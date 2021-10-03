@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "732579614387",
+    "project_id": "tribal-76db2",
+    "storage_bucket": "tribal-76db2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732579614387:android:9e7c71e11b4b89f7caeac6",
+        "android_client_info": {
+          "package_name": "covenant.tribal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732579614387-i9bd33cjm9onbfjglvq8lk8170qt0pmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLtdQ4At-gvGqoptOqdbrn6c8_1gZi7jA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732579614387-i9bd33cjm9onbfjglvq8lk8170qt0pmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

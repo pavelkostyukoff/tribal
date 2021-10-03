@@ -1,10 +1,9 @@
-package covenant.cases.ui.login
+package covenant.tribal.ui.login
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.shape.ZeroCornerSize
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.*
 import androidx.compose.runtime.*
@@ -17,9 +16,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import covenant.tribal.R
+import org.koin.androidx.compose.getViewModel
 
 @Composable
-fun LoginScreen() {
+fun LoginScreen(viewModel: LoginViewModel = getViewModel()) {
     ConstraintLayout(Modifier.fillMaxSize()) {
         val (button, logo, editName, editPass) = createRefs()
         Button(

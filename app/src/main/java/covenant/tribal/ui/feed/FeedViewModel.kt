@@ -1,4 +1,4 @@
-package covenant.cases.ui.feed
+package covenant.tribal.ui.feed
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
