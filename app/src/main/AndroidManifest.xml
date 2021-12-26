@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tribal">
         <activity
+            android:windowSoftInputMode="adjustResize"
             android:name="covenant.tribal.ui.main.MainActivity"
             android:label="@string/app_name"
             android:exported="true">

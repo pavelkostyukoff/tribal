@@ -18,6 +18,15 @@ class AuthRepositoryImpl : AuthRepository {
             firebaseAuth.signInWithEmailAndPassword(email, password).await()
         }
     }
+
+    override suspend fun signUp(email: String, password: String) {
+        withContext(
+            Dispatchers.IO
+        ) {
+            firebaseAuth.createUserWithEmailAndPassword(email, password).await()
+        }
+            //todo как тут поймать ошибку и обработать ее что бы перенаправить в логин?
+    }
     //todo sighUp
 
     //todo разлогин
